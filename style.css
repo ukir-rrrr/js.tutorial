@@ -5,6 +5,8 @@
 }
 
 .main {
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
     font-size: 1.2rem;
     width: 100vw;
     height: 100vh;
@@ -35,6 +37,12 @@ nav {
     align-items: center;
 }
 
+h2 {
+    white-space: nowrap; /* テキストを折り返さないようにする */
+    overflow: visible; /* 要素からはみ出たコンテンツを表示 */
+    text-overflow: clip; /* テキストがはみ出した場合でも全て表示させる */
+}
+
 .logo {
     width: 20%;
     height: 20%;
@@ -44,4 +52,15 @@ nav {
 .nav-links ul li {
     display: inline-block;
     padding: 0 2rem;
+}
+
+.nav-links ul a {
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.nav-links ul a:hover {
+    color: rgb(159, 156, 103);
 }
