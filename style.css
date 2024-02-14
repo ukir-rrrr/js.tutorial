@@ -1,0 +1,47 @@
+* {
+    margin: 0;    /*外側余白0*/
+    padding: 0;    /*内側余白0*/
+    box-sizing: border-box;
+}
+
+.main {
+    font-size: 1.2rem;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(159, 70, 158), #b84545);
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+    font-weight: 550;
+
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+    margin-right: 12px;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    padding: 0 2rem;
+}
