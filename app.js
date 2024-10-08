@@ -17,3 +17,4 @@ var circle = document.getElementById("circle");
         circle.style.transform = rotateSum;
         rotateValue = rotateSum;
       };
+
